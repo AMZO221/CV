@@ -64,7 +64,7 @@ body {
 }
 
 .s-section {
-    padding: 0.65rem 1.15rem;
+    padding: 0.65rem 0.5rem;
     border-top: 1px solid rgba(255,255,255,0.06);
     flex-shrink: 0;
 }
@@ -344,7 +344,9 @@ body {
 
 .form-mention{
     display : inline-flex ;
-    gap : 20px;
+    align-items : center;
+    justify-content : space-between;
+    gap : 50px;
 }
 .edu-date {
     font-size: 10px;
